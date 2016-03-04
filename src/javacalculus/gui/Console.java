@@ -87,7 +87,6 @@ public class Console extends JFrame implements ActionListener, KeyListener {
 		content.setLayout(new GridBagLayout());
 		content.setBorder(BorderFactory.createLoweredBevelBorder());
 		GridBagConstraints c = new GridBagConstraints();
-		
 		c.gridx = 0; c.gridy = 0; c.fill = GridBagConstraints.BOTH;
 		content.add(inputLabel, c);
 		c.gridx = 1; c.gridy = 0;

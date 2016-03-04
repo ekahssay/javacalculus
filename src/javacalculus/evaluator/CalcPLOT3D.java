@@ -6,9 +6,6 @@ package javacalculus.evaluator;
 import javacalculus.core.CALC;
 import javacalculus.evaluator.extend.CalcFunctionEvaluator;
 import javacalculus.exception.CalcWrongParametersException;
-import javacalculus.graphing.CalcGraph;
-import javacalculus.graphing.CalcGraph3D;
-import javacalculus.graphing.CalcPlotter;
 import javacalculus.graphing.CalcPlotter3D;
 import javacalculus.struct.CalcDouble;
 import javacalculus.struct.CalcFunction;
@@ -67,7 +64,7 @@ public class CalcPLOT3D implements CalcFunctionEvaluator, CalcPlotter3D {
 	 * Create and show the graph
 	 */
 	private void showGraph() {
-		new CalcGraph3D(this);
+		//new CalcGraph3D(this);
 	}
 	
 	/**

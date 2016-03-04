@@ -50,6 +50,7 @@ public final class CalculusEngine {
             e.printStackTrace();
         }
         CALC.toggleOperatorNotation();
+        CalcObject object= CALC.SYM_EVAL(parsed);
         return CALC.SYM_EVAL(parsed).toString();
     }
 

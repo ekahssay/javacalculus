@@ -10,6 +10,7 @@ public class CalcDIFFTest extends BaseTest {
     public void testQuadratic() {
         final String QUERY = "DIFF(x^2,x)";
         final String EXPECTED = "2*x";
+
         String result = engine.execute(QUERY);
 
         Assert.assertEquals(EXPECTED, result);

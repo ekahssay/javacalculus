@@ -1,7 +1,6 @@
 package javacalculus.test;
 
 import junit.framework.Assert;
-
 import org.junit.Test;
 
 public class CalcINTTest extends BaseTest {

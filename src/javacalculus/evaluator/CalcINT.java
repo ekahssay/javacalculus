@@ -177,7 +177,7 @@ public class CalcINT implements CalcFunctionEvaluator {
                         return CALC.TAN.createFunction(var);
                     }
                     if (firstObj.getHeader().equals(CALC.SIN)) {
-                        return CALC.MULTIPLY.createFunction(CALC.COT.createFunction(var), CALC.NEG_ONE);
+                       // return CALC.MULTIPLY.createFunction(CALC.COT.createFunction(var), CALC.NEG_ONE);
                     }
                 } else { // INT(f(x)^g(x),x)
                 }
